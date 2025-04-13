@@ -1,0 +1,61 @@
+Initial Settings:
+Dataset: cholec80
+Model: Cycle_ganUnet_256Heavy
+Learning Rate: 0.0009
+Beta1: 0.99
+Seed: 1677
+Dataset mode: aligned
+Generator: unet_256
+Discriminator: basic
+--------------------------------------------------
+ 
+[2025-03-12 19:07:14] Epoch 1: Train (D_A: 0.665) (G_A: 0.624) (cycle_A: 2.235) (idt_A: 1.368) Val (MSE: 102.915) (SSIM: 0.288) (PSNR: 28.012) 
+[2025-03-12 19:07:37] Epoch 2: Train (D_A: 0.258) (G_A: 0.291) (cycle_A: 0.904) (idt_A: 0.475) Val (MSE: 100.573) (SSIM: 0.593) (PSNR: 28.145) 
+[2025-03-12 19:08:01] Epoch 3: Train (D_A: 0.235) (G_A: 0.392) (cycle_A: 0.679) (idt_A: 0.362) Val (MSE: 100.391) (SSIM: 0.592) (PSNR: 28.140) 
+[2025-03-12 19:08:21] Epoch 4: Train (D_A: 0.217) (G_A: 0.386) (cycle_A: 0.677) (idt_A: 0.396) Val (MSE: 100.794) (SSIM: 0.621) (PSNR: 28.112) 
+[2025-03-12 19:08:45] Epoch 5: Train (D_A: 0.247) (G_A: 0.370) (cycle_A: 0.606) (idt_A: 0.384) Val (MSE: 101.303) (SSIM: 0.670) (PSNR: 28.086) 
+[2025-03-12 19:09:08] Epoch 6: Train (D_A: 0.233) (G_A: 0.368) (cycle_A: 0.558) (idt_A: 0.375) Val (MSE: 99.937) (SSIM: 0.674) (PSNR: 28.146) 
+[2025-03-12 19:09:31] Epoch 7: Train (D_A: 0.241) (G_A: 0.334) (cycle_A: 0.590) (idt_A: 0.383) Val (MSE: 99.739) (SSIM: 0.648) (PSNR: 28.155) 
+[2025-03-12 19:09:52] Epoch 8: Train (D_A: 0.235) (G_A: 0.299) (cycle_A: 0.557) (idt_A: 0.375) Val (MSE: 98.814) (SSIM: 0.674) (PSNR: 28.194) 
+[2025-03-12 19:10:13] Epoch 9: Train (D_A: 0.226) (G_A: 0.316) (cycle_A: 0.525) (idt_A: 0.359) Val (MSE: 99.212) (SSIM: 0.711) (PSNR: 28.180) 
+[2025-03-12 19:10:36] Epoch 10: Train (D_A: 0.216) (G_A: 0.320) (cycle_A: 0.477) (idt_A: 0.329) Val (MSE: 99.041) (SSIM: 0.721) (PSNR: 28.187) 
+[2025-03-12 19:11:00] Epoch 11: Train (D_A: 0.209) (G_A: 0.347) (cycle_A: 0.463) (idt_A: 0.348) Val (MSE: 97.434) (SSIM: 0.721) (PSNR: 28.262) 
+[2025-03-12 19:11:23] Epoch 12: Train (D_A: 0.212) (G_A: 0.358) (cycle_A: 0.446) (idt_A: 0.349) Val (MSE: 99.795) (SSIM: 0.695) (PSNR: 28.154) 
+[2025-03-12 19:11:43] Epoch 13: Train (D_A: 0.211) (G_A: 0.357) (cycle_A: 0.443) (idt_A: 0.349) Val (MSE: 98.993) (SSIM: 0.709) (PSNR: 28.190) 
+[2025-03-12 19:12:04] Epoch 14: Train (D_A: 0.227) (G_A: 0.348) (cycle_A: 0.452) (idt_A: 0.352) Val (MSE: 97.431) (SSIM: 0.729) (PSNR: 28.262) 
+[2025-03-12 19:12:28] Epoch 15: Train (D_A: 0.237) (G_A: 0.320) (cycle_A: 0.503) (idt_A: 0.346) Val (MSE: 99.473) (SSIM: 0.733) (PSNR: 28.170) 
+[2025-03-12 19:12:51] Epoch 16: Train (D_A: 0.235) (G_A: 0.352) (cycle_A: 0.521) (idt_A: 0.333) Val (MSE: 99.307) (SSIM: 0.735) (PSNR: 28.174) 
+[2025-03-12 19:13:15] Epoch 17: Train (D_A: 0.262) (G_A: 0.303) (cycle_A: 0.539) (idt_A: 0.322) Val (MSE: 99.167) (SSIM: 0.733) (PSNR: 28.182) 
+[2025-03-12 19:13:35] Epoch 18: Train (D_A: 0.244) (G_A: 0.334) (cycle_A: 0.517) (idt_A: 0.341) Val (MSE: 96.819) (SSIM: 0.736) (PSNR: 28.290) 
+[2025-03-12 19:13:59] Epoch 19: Train (D_A: 0.241) (G_A: 0.390) (cycle_A: 0.564) (idt_A: 0.356) Val (MSE: 102.179) (SSIM: 0.712) (PSNR: 28.049) 
+[2025-03-12 19:14:19] Epoch 20: Train (D_A: 0.248) (G_A: 0.331) (cycle_A: 0.568) (idt_A: 0.349) Val (MSE: 101.460) (SSIM: 0.728) (PSNR: 28.084) 
+[2025-03-12 19:14:40] Epoch 21: Train (D_A: 0.252) (G_A: 0.436) (cycle_A: 0.590) (idt_A: 0.324) Val (MSE: 98.978) (SSIM: 0.746) (PSNR: 28.189) 
+[2025-03-12 19:15:04] Epoch 22: Train (D_A: 0.261) (G_A: 0.416) (cycle_A: 0.530) (idt_A: 0.331) Val (MSE: 98.750) (SSIM: 0.750) (PSNR: 28.200) 
+[2025-03-12 19:15:27] Epoch 23: Train (D_A: 0.250) (G_A: 0.320) (cycle_A: 0.584) (idt_A: 0.345) Val (MSE: 102.026) (SSIM: 0.732) (PSNR: 28.054) 
+[2025-03-12 19:15:48] Epoch 24: Train (D_A: 0.203) (G_A: 0.485) (cycle_A: 0.583) (idt_A: 0.341) Val (MSE: 101.910) (SSIM: 0.704) (PSNR: 28.065) 
+[2025-03-12 19:16:09] Epoch 25: Train (D_A: 0.183) (G_A: 0.516) (cycle_A: 0.637) (idt_A: 0.383) Val (MSE: 102.383) (SSIM: 0.667) (PSNR: 28.039) 
+[2025-03-12 19:16:29] Epoch 26: Train (D_A: 0.201) (G_A: 0.435) (cycle_A: 0.615) (idt_A: 0.329) Val (MSE: 102.829) (SSIM: 0.754) (PSNR: 28.020) 
+[2025-03-12 19:16:52] Epoch 27: Train (D_A: 0.204) (G_A: 0.410) (cycle_A: 0.636) (idt_A: 0.347) Val (MSE: 99.359) (SSIM: 0.748) (PSNR: 28.173) 
+[2025-03-12 19:17:13] Epoch 28: Train (D_A: 0.173) (G_A: 0.555) (cycle_A: 0.602) (idt_A: 0.379) Val (MSE: 98.111) (SSIM: 0.709) (PSNR: 28.228) 
+[2025-03-12 19:17:34] Epoch 29: Train (D_A: 0.213) (G_A: 0.417) (cycle_A: 0.684) (idt_A: 0.393) Val (MSE: 101.104) (SSIM: 0.732) (PSNR: 28.096) 
+[2025-03-12 19:17:55] Epoch 30: Train (D_A: 0.174) (G_A: 0.465) (cycle_A: 0.508) (idt_A: 0.331) Val (MSE: 101.667) (SSIM: 0.727) (PSNR: 28.070) 
+[2025-03-12 19:18:16] Epoch 31: Train (D_A: 0.159) (G_A: 0.565) (cycle_A: 0.584) (idt_A: 0.386) Val (MSE: 97.679) (SSIM: 0.720) (PSNR: 28.252) 
+[2025-03-12 19:18:36] Epoch 32: Train (D_A: 0.142) (G_A: 0.530) (cycle_A: 0.500) (idt_A: 0.373) Val (MSE: 98.733) (SSIM: 0.741) (PSNR: 28.203) 
+[2025-03-12 19:18:57] Epoch 33: Train (D_A: 0.097) (G_A: 0.706) (cycle_A: 0.495) (idt_A: 0.339) Val (MSE: 102.038) (SSIM: 0.740) (PSNR: 28.053) 
+[2025-03-12 19:19:18] Epoch 34: Train (D_A: 0.096) (G_A: 0.655) (cycle_A: 0.408) (idt_A: 0.307) Val (MSE: 99.067) (SSIM: 0.753) (PSNR: 28.187) 
+[2025-03-12 19:19:38] Epoch 35: Train (D_A: 0.116) (G_A: 0.529) (cycle_A: 0.431) (idt_A: 0.344) Val (MSE: 99.468) (SSIM: 0.760) (PSNR: 28.169) 
+[2025-03-12 19:20:02] Epoch 36: Train (D_A: 0.148) (G_A: 0.467) (cycle_A: 0.393) (idt_A: 0.310) Val (MSE: 99.416) (SSIM: 0.766) (PSNR: 28.171) 
+[2025-03-12 19:20:25] Epoch 37: Train (D_A: 0.162) (G_A: 0.292) (cycle_A: 0.384) (idt_A: 0.310) Val (MSE: 100.979) (SSIM: 0.759) (PSNR: 28.101) 
+[2025-03-12 19:20:46] Epoch 38: Train (D_A: 0.215) (G_A: 0.277) (cycle_A: 0.374) (idt_A: 0.302) Val (MSE: 100.325) (SSIM: 0.766) (PSNR: 28.130) 
+[2025-03-12 19:21:09] Epoch 39: Train (D_A: 0.175) (G_A: 0.424) (cycle_A: 0.379) (idt_A: 0.302) Val (MSE: 99.959) (SSIM: 0.769) (PSNR: 28.147) 
+[2025-03-12 19:21:33] Epoch 40: Train (D_A: 0.139) (G_A: 0.506) (cycle_A: 0.395) (idt_A: 0.299) Val (MSE: 100.501) (SSIM: 0.764) (PSNR: 28.122) 
+[2025-03-12 19:21:54] Epoch 41: Train (D_A: 0.120) (G_A: 0.581) (cycle_A: 0.420) (idt_A: 0.314) Val (MSE: 100.799) (SSIM: 0.761) (PSNR: 28.108) 
+[2025-03-12 19:22:14] Epoch 42: Train (D_A: 0.094) (G_A: 0.680) (cycle_A: 0.458) (idt_A: 0.308) Val (MSE: 100.542) (SSIM: 0.747) (PSNR: 28.120) 
+[2025-03-12 19:22:35] Epoch 43: Train (D_A: 0.081) (G_A: 0.789) (cycle_A: 0.484) (idt_A: 0.304) Val (MSE: 102.282) (SSIM: 0.754) (PSNR: 28.048) 
+[2025-03-12 19:22:56] Epoch 44: Train (D_A: 0.118) (G_A: 0.621) (cycle_A: 0.532) (idt_A: 0.305) Val (MSE: 99.266) (SSIM: 0.761) (PSNR: 28.178) 
+[2025-03-12 19:23:17] Epoch 45: Train (D_A: 0.052) (G_A: 0.857) (cycle_A: 0.489) (idt_A: 0.296) Val (MSE: 98.185) (SSIM: 0.760) (PSNR: 28.229) 
+[2025-03-12 19:23:37] Epoch 46: Train (D_A: 0.075) (G_A: 0.851) (cycle_A: 0.478) (idt_A: 0.304) Val (MSE: 100.233) (SSIM: 0.743) (PSNR: 28.132) 
+[2025-03-12 19:23:58] Epoch 47: Train (D_A: 0.074) (G_A: 0.850) (cycle_A: 0.508) (idt_A: 0.305) Val (MSE: 100.246) (SSIM: 0.767) (PSNR: 28.132) 
+[2025-03-12 19:24:19] Epoch 48: Train (D_A: 0.063) (G_A: 0.854) (cycle_A: 0.474) (idt_A: 0.294) Val (MSE: 100.494) (SSIM: 0.745) (PSNR: 28.122) 
+[2025-03-12 19:24:39] Epoch 49: Train (D_A: 0.059) (G_A: 0.901) (cycle_A: 0.486) (idt_A: 0.298) Val (MSE: 100.072) (SSIM: 0.735) (PSNR: 28.140) 
+[2025-03-12 19:25:00] Epoch 50: Train (D_A: 0.035) (G_A: 0.935) (cycle_A: 0.462) (idt_A: 0.313) Val (MSE: 101.349) (SSIM: 0.761) (PSNR: 28.089) 

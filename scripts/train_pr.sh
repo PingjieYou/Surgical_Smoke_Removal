@@ -1,0 +1,11 @@
+python train.py --dataroot /home/ypj/dataset/cholec80_desmoking/psv2rs/light --name Pix2PixPFANLight --model pix2pix --netG PFAN --netD basic --direction AtoB --dataset_mode aligned --norm batch --token_projection conv --embed_dim 64 --ndf 64 --ngf 64
+python train.py --dataroot /home/ypj/dataset/cholec80_desmoking/psv2rs/middle --name Pix2PixPFANMiddle --model pix2pix --netG PFAN --netD basic --direction AtoB --dataset_mode aligned --norm batch --token_projection conv --embed_dim 64 --ndf 64 --ngf 64
+python train.py --dataroot /home/ypj/dataset/cholec80_desmoking/psv2rs/heavy --name Pix2PixPFANHeavy --model pix2pix --netG PFAN --netD basic --direction AtoB --dataset_mode aligned --norm batch --token_projection conv --embed_dim 64 --ndf 64 --ngf 64
+
+python train.py --dataroot /home/ypj/dataset/cholec80_desmoking/psv2rs/light --name Pix2PixSwinunetLight --model pix2pix --netG swinunet --netD basic --direction AtoB --dataset_mode aligned --norm batch --token_projection conv --embed_dim 64 --ndf 64 --ngf 64
+python train.py --dataroot /home/ypj/dataset/cholec80_desmoking/psv2rs/middle --name Pix2PixSwinunetMiddle --model pix2pix --netG swinunet --netD basic --direction AtoB --dataset_mode aligned --norm batch --token_projection conv --embed_dim 64 --ndf 64 --ngf 64
+python train.py --dataroot /home/ypj/dataset/cholec80_desmoking/psv2rs/heavy --name Pix2PixSwinunetHeavy --model pix2pix --netG swinunet --netD basic --direction AtoB --dataset_mode aligned --norm batch --token_projection conv --embed_dim 64 --ndf 64 --ngf 64
+
+python train.py --dataroot /home/ypj/dataset/cholec80_desmoking/psv2rs/light --name Pix2PixUnet128Light --model pix2pix --netG unet_128 --netD basic --direction AtoB --dataset_mode aligned --norm batch --token_projection conv --embed_dim 64 --ndf 64 --ngf 64
+python train.py --dataroot /home/ypj/dataset/cholec80_desmoking/psv2rs/middle --name Pix2PixUnet128Middle --model pix2pix --netG unet_128 --netD basic --direction AtoB --dataset_mode aligned --norm batch --token_projection conv --embed_dim 64 --ndf 64 --ngf 64
+python train.py --dataroot /home/ypj/dataset/cholec80_desmoking/psv2rs/heavy --name Pix2PixUnet128Heavy --model pix2pix --netG unet_128 --netD basic --direction AtoB --dataset_mode aligned --norm batch --token_projection conv --embed_dim 64 --ndf 64 --ngf 64

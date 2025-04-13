@@ -1,0 +1,11 @@
+.idea
+
+checkpoints/*
+!checkpoints/.gitkeep
+
+results/*
+!results/.gitkeep
+
+*/__pycache__
+__pycache__/
+
